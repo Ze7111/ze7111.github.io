@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.18c476ba.css",
+    "main.js": "/static/js/main.63cdd152.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/DataFinder.png": "/static/media/DataFinder.82579e1808ff2aa9791b.png",
+    "static/media/clock.png": "/static/media/clock.f84283e5cbea0415d23a.png",
+    "static/media/Omnix.png": "/static/media/Omnix.e43ebae9fe7744e57d6c.png",
+    "static/media/Boilerplate.png": "/static/media/Boilerplate.af33e83536411dfc6d3c.png",
+    "static/media/DhruvanKartikCV.pdf": "/static/media/DhruvanKartikCV.1f7daca95f666efb0ef5.pdf",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.5852f40fbb38aa284829fa3fb7722225.svg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.18c476ba.css.map": "/static/css/main.18c476ba.css.map",
+    "main.63cdd152.js.map": "/static/js/main.63cdd152.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18c476ba.css",
+    "static/js/main.63cdd152.js"
+  ]
+}
