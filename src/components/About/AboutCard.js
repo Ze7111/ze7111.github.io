@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImPointRight, ImPencil2 } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -38,6 +38,28 @@ function AboutCard() {
             "Quiters never win and winners never quit"{" "}
           </p>
           <footer className="blockquote-footer">Dhruvan</footer>
+          <p style={{ textAlign: "justify" }}>
+            The <span className="purple"> Languages </span> I know are!
+          </p>
+          <ul>
+
+          <li className="about-languages">
+              <ImPencil2 /> English
+          </li>
+
+          <li className="about-languages">
+              <ImPencil2 /> Hindi
+          </li>
+          <li className="about-languages">
+              <ImPencil2 /> Tamil
+          </li>
+          <li className="about-languages">
+              <ImPencil2 /> French
+          </li>
+          <li className="about-languages">
+              <ImPencil2 /> Spanish
+          </li>
+          </ul>
         </blockquote>
       </Card.Body>
     </Card>

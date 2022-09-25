@@ -592,6 +592,12 @@ button:focus {
   padding-left: 1px !important;
 }
 
+.about-languages {
+  list-style: none !important;
+  text-align: left !important;
+  padding-left: 1px !important;
+}
+
 @media (max-width: 767px) {
   .about-img {
     padding-top: 0 !important;
