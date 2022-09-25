@@ -5,9 +5,9 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { SiBitcoinsv } from "react-icons/si";
 import { ImBlog } from "react-icons/im";
-import { BsPaypal } from "react-icons/bs";
+import { BsPaypal, BsCurrencyBitcoin } from "react-icons/bs";
 import {
   AiFillStar,
   AiOutlineHome,
@@ -100,6 +100,16 @@ function NavBar() {
                 className="fork-btn-inner"
               >
                 <BsPaypal style={{ fontSize: "1.2em" }} />{" "}
+              </Button>
+            </Nav.Item>
+            <Nav.Item className="fork-btn">
+              <Button
+                  className="fork-btn-inner"
+                  as={Link}
+                  to="/crypto"
+                  onClick={() => updateExpanded(false)}
+                >
+                <SiBitcoinsv style={{ fontSize: "1.2em" }} />{" "}
               </Button>
             </Nav.Item>
           </Nav>

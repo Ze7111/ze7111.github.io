@@ -4,6 +4,7 @@
   "homepage": "https://ze7111.github.io/",
   "private": true,
   "dependencies": {
+    "@blueprintjs/core": "^4.10.1",
     "@react-pdf/renderer": "^2.2.0",
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
