@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "http://dhruvan.us.to/",
+  "homepage": "https://ze7111.github.io/",
   "private": true,
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",
