@@ -13,9 +13,9 @@ function About() {
                         </Col>
                 </Row>
                 <Col xs={1} md={12} className="crypto-boxes">
-                    <h1>
+                    <h2>
                         0x8E680EC7B09b2B553f6a8cA163B6a710741E6bfa
-                    </h1>
+                    </h2>
                 </Col>
 
                 <Row style={{ justifyContent: "center", padding: "5px" }}>
@@ -24,9 +24,9 @@ function About() {
                         </Col>
                 </Row>
                 <Col xs={1} md={12} className="crypto-boxes">
-                    <h1>
+                    <h2>
                         bc1qg6lfdtevtuladhu52zzaxfcwqkhcddyf0derlv
-                    </h1>
+                    </h2>
                 </Col>
 
                 <Row style={{ justifyContent: "center", padding: "5px" }}>
@@ -35,9 +35,9 @@ function About() {
                         </Col>
                 </Row>
                 <Col xs={1} md={12} className="crypto-boxes">
-                    <h1>
+                    <h2>
                         kava163fgmycyw4n0j0xk27ytnn475ka0wyev7ztc9s
-                    </h1>
+                    </h2>
                 </Col>
             </Container>
         </Container>
