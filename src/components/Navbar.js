@@ -105,7 +105,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="paypal.me/dhruvanze"
+                href="https://www.paypal.com/paypalme/dhruvanze"
                 target="_blank"
                 className="fork-btn-inner"
               >
