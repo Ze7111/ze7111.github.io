@@ -6,10 +6,8 @@ import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { SiBitcoinsv } from "react-icons/si";
-import { ImBlog } from "react-icons/im";
-import { BsPaypal, BsCurrencyBitcoin } from "react-icons/bs";
+import { BsPaypal } from "react-icons/bs";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,

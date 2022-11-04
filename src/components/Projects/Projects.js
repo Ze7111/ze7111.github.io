@@ -2,10 +2,6 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import clock from "../../Assets/Projects/clock.png";
-import datafinder from "../../Assets/Projects/DataFinder.png";
-import boilerplate from "../../Assets/Projects/Boilerplate.png";
-import omnix from "../../Assets/Projects/Omnix.png";
 
 function Projects() {
   return (
@@ -20,8 +16,16 @@ function Projects() {
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
+          <ProjectCard
+              isBlog={false}
+              title="Versace"
+              description="A functional first, object oriented, statically typed, compiled programming language, it can also be transpiled to python, or build to a binary executable."
+              ghLink="https://github.com/Ze7111/Versace"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={clock}
               isBlog={false}
               title="Minimal Clock"
               description="a very minmal astethic clock made in python and cython, which makes use of a number of winodws elemements such as acrylic to add beatuiful background blur."
@@ -32,7 +36,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={datafinder}
               isBlog={false}
               title="Data Finder"
               description="Simple to use data finder, which is codded in python. The way it works is, it takes an input in a beautiful cli and then searches for the data in the given csv and then returns the related data in a beautiful table."
@@ -42,7 +45,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={boilerplate}
               isBlog={false}
               title="Boilerplate Files Generator"
               description="Make Default Files and Folder Structure, for a python project, with a single click. This is a simple python script which makes a default folder structure for a python project. It also makes a default python file with a default code in it, along with a few usefull tools."
@@ -52,7 +54,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
           <ProjectCard
-              imgPath={omnix}
               isBlog={false}
               title="OMNIX"
               description="Simple log, history free command line, internet search applicaion build in python made for privacy"
@@ -60,6 +61,16 @@ function Projects() {
             />
           </Col>
 
+
+          <Col md={4} className="project-card">
+          <ProjectCard
+              isBlog={false}
+              title="ZE OS"
+              description="A simple, yet powerfull, operating system, made in python, it is a hobby project, and is still in development."
+              ghLink="https://github.com/Ze7111/Proper-Terminal-Based-Application"
+            />
+          </Col>
+          
         </Row>
       </Container>
     </Container>

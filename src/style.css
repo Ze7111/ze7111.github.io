@@ -459,7 +459,9 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(119, 53, 136, 0.459) !important;
+  /* add curved edges */
+  border-radius: 0.6rem !important;
+  box-shadow: 0 0 10px rgba(168, 76, 221, 0.459) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -467,9 +469,9 @@ button:focus {
   height: 100% !important;
 }
 .project-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.04) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
+  box-shadow: 0 0 0 5px rgba(112, 72, 144, 0.561) !important;
 }
 
 .blog-card {
@@ -756,24 +758,20 @@ button:focus {
 }
 
 .crypto-boxes {
-  background-color: #0e0e0e86 !important;
-  font-size: 4.5em !important;
-  margin: 15px !important;
-  padding: 10px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(22, 22, 22, 0.637) !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-  border-radius: 5px !important;
-  display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(53, 53, 53, 0.137) !important;
-  overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
+    /* add curved edges */
+    border-radius: 0.6rem !important;
+    box-shadow: 0 0 10px rgba(168, 76, 221, 0.459) !important;
+    color: white !important;
+    background-color: transparent !important;
+    opacity: 0.9 !important;
+    transition: all 0.5s ease 0s !important;
+    padding: 10px !important;
+    margin: 5px !important;
+    
 }
 
 .crypto-boxes:hover {
-  transform: scale(1.05) !important;
+  transform: scale(1.04) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 0 0 0 5px rgba(112, 72, 144, 0.561) !important;  
 }
