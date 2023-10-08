@@ -10,8 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Dhruvan Kartik </span>
             from <span className="purple"> Dubai, United Arab Emirates.</span>
-            <br />I am a senior pursuing Maths, Computing, and Game Design at
-            Gems FirstPoint School.
+            <br />I am a freshman pursuing B.S. Computer Science at
+            Purdue Fort Wayne.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -55,9 +55,6 @@ function AboutCard() {
           </li>
           <li className="about-languages">
               <ImPencil2 /> French
-          </li>
-          <li className="about-languages">
-              <ImPencil2 /> Spanish
           </li>
           </ul>
         </blockquote>
