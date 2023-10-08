@@ -16,40 +16,31 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-description">            
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              Allow Me to <span className="purple"> Introduce </span> Myself
             </h1>
             <p className="home-about-body" style={{ textAlign: "center" }}>
-              I fell in love with programming and I have at least learnt
-              something, hopefully… 🤷‍♂️
+              My journey into the realm of programming has been a love affair 
+              from the get-go. Every line of code I write teaches me 
+              something new, and I thrive on the boundless learning opportunities
+              that this field offers. 🚀
               <br />
-              <br />I am fluent in these languages
+              <br />I have honed my skills in an array of programming languages including
               <i>
-                <b className="purple"> Python, C++, C, C#, Java, JavaScript, NodeJS, Ruby, Rust, Swift, and Flutter. </b>
+                <b className="purple"> Python, C++, C, C#, Java, JavaScript, and Batch, showcasing my versatility and adaptability. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              I am particularly drawn to
               <i>
-                <b className="purple">Backend Devolopment, Web Technologies, and Data Structures </b> and
-                also in areas related to{" "}
+                <b className="purple"> Backend Development, Web Technologies, and Data Structures </b>
+                , with a burgeoning interest in
                 <b className="purple">
-                  Machine Learning and Game Devolopment.
-                </b>
+                Machine Learning and Game Development.
+                </b> These domains present a playground where I can continually challenge myself and hone my skills.
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing applications
-              with <b className="purple">C++, Python</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Node.js</b>
-              </i>
+              Whenever the opportunity arises, I relish diving into application development, employing C++ and modern JavaScript libraries and frameworks like React.js and Node.js to create intuitive, user-centric solutions.
             </p>
           </Col>
         </Row>
